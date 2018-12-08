@@ -1,0 +1,911 @@
+/* CSS општи правила*/
+
+
+/* СТАВИ BORDERS НА СИТЕ ЕЛЕМЕНТИ*/
+
+/* * {
+border: 0.5pt solid red;
+} */
+
+
+/* CSS правила за padding надолу*/
+
+.down {
+padding-top: 1%;
+}
+
+.down1 {
+padding-top: 3%;
+}
+
+.down2 {
+padding-top: 7%;
+}
+
+.down3 {
+padding-top: 10%;
+}
+
+.down4 {
+padding-top: 13%;
+}
+
+.down5 {
+padding-top: 15%;
+}
+
+.down6 {
+padding-top: 17%;
+}
+
+.down7 {
+padding-top: 20%;
+}
+
+/* REMOVE ANIMATIONS IN BOOTSTRAP */
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+/* SCROLL TO TOP BUTTON */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #562894;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.fa-angle-up {
+    font-size: 20px;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* MAIN CONTAINER - WRAPPER */
+
+#mainlogo {
+    height: 50px;
+}
+
+
+#maincont {
+    max-width: 1300px;
+}
+
+/* NAVBAR */
+
+.navpeter {
+    border-bottom: 1px solid #562894;;
+}
+
+.menuwrapper {
+    width: 125px;
+}
+
+.menutoggle {
+    float:right;
+    cursor: pointer;
+}
+
+#threelinesbtn {
+    position: relative;
+    top:-3px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.menuabout {
+    float:left;
+    height:25px;
+    width: 25px;
+    color: white;
+    background: #562894;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menutitle {
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.menunav {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+
+/* FIRST PART */
+
+.hide-purple-div {
+    height: 500px;
+    background:	#562894;
+    color: white;
+    text-align: center;
+}
+
+
+.triagolniche {
+    float:right;
+    margin-top: -21px;
+    margin-right: 118px;
+    border: 10px solid #562894;
+    height: 40px;
+    width: 40px;
+    border-left-color:    red;
+    border-right-color:   yellowgreen;
+    border-top-color:     orange;
+    border-bottom-color:  #562894;
+    width: 0;
+    height: 0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: #562894;
+}
+
+#zapochnibtn {
+    border: 1px solid white;
+    border-radius: none;
+    background: none;
+    border-radius: inherit;
+    padding: 15px 120px;
+    font-weight: bold;
+}
+
+#zapochnibtn:hover {
+    background: white;
+    color: #562894;
+}
+
+#popupimgs {
+    height: 100px;
+}
+
+.popuptext {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+.uppertext {
+    color: rgb(201, 161, 201);
+    padding-top: 30px;
+}
+
+.lowertext {
+    border-bottom: 1px solid rgb(201, 161, 201);
+    padding-bottom: 10px;
+}
+
+.desctext {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/* BROWSE BY CATEGORY */
+
+.browsebycategory {
+    height: 150px;
+    background: #f3f3f3;
+    text-transform: uppercase;
+    color: #562894;
+}
+
+.insidebrowse {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.category, .timeframe, .groupsize {
+    padding: 8px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border: 1px solid #562894;
+    flex: 0 0 32%;
+    max-width: 32%;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+    color: #562894;
+}
+
+.category:hover {
+    background: #9b1a94;
+    color: white;
+}
+
+.timeframe:hover {
+    background: #9b1a94;
+    color: white;
+}
+
+.groupsize:hover {
+    background: #9b1a94;
+    color: white;
+}
+
+.timeframe {
+    flex: 0 0 47%;
+    max-width: 47%;
+}
+
+.groupsize {
+    flex: 0 0 35%;
+    max-width: 25%;
+}
+
+.kliknato {
+    background-color: #562894;
+    color: white!important;
+}
+
+.active:hover {
+    background: #562894;
+    color: white;
+}
+
+.gameCount {
+    color: #c0b6ce;
+}
+
+.removespacing {
+    margin: 0;
+    margin-left: -11px;
+    padding: 0;
+}
+
+.labelShowFeatured {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.labelFeat, .labelFeat:hover {
+    margin-left: 85%;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.labelFeat:hover {
+    border-bottom: 2px solid black;
+}
+
+/* КАРТИЧКИ */
+
+.kartichkiwrapper {
+    height: 100%;
+}
+
+.redzakartichki {
+    margin-left:-3px;
+}
+
+.kartichka {
+    flex: 0 0 25%;
+    max-width: 24%;
+    height: 290px;
+    margin: 5px 5px;
+    border: 1px solid #562894;
+    text-align: center;
+    cursor: pointer;
+    display:none;
+}
+
+.kartichka:hover {
+    border: 5px solid #562894;
+    transition: all 0.2s ease;
+    
+}
+
+.imgGame {
+    width: 60%;
+    height: auto;
+    max-height: 70%;
+    margin: 0 auto;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.kartichka:hover > #linkTo > .imgGame {
+    width: 50%;
+    margin-top: -10px;
+    transition:all 0.2s ease;
+}
+
+
+.showOnHoverInfo {
+    display: inline-block;
+    opacity: 0;
+}
+
+.kartichka:hover > #linkTo > .showOnHoverInfo  {
+    opacity: 1;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    height:20px;
+    transition:all 0.3s ease;
+    animation-name: moveup;
+    animation-duration: 0.5s;
+}
+
+@keyframes moveup {
+    from {margin-top: 10px;}
+    to {margin-top: 10px;}
+}
+
+@keyframes moveout {
+    from {margin-top: 10px;}
+    to {margin-top: 10px;}
+}
+
+.description {
+    padding-top: 10px;
+}
+
+
+.fa-clock, .fa-male {
+    color: grey;
+    font-size: 12px;
+}
+
+.timeFrame, .groupSize {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.categorySqr {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #562894;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/* GAME STUFF */
+
+.gameStuff {
+    height: 400px;  
+}
+
+.gameContent {
+    margin-left: 25px;
+    height: 80%;
+    padding: 0;
+}
+
+.shareDiv {
+    margin-left: 80px;
+    height: 100px;
+    border-left: 2px solid rgb(221, 221, 221);
+}
+
+.imgGame2 {
+    width: 80%;
+    max-height: 80%;
+    margin: 0px 40px;
+    display: inline-block;
+}
+
+#shareBTN {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 55px;
+    cursor: pointer;
+}
+
+.fa-share-alt {
+    font-size: 50px;
+    color: rgb(221, 221, 221);;
+    margin: 5px 5px;
+}
+
+/* BROWSE BY CATEGORY */
+
+.browsebycategory2 {
+    height: 100px;
+    background: #f3f3f3
+}
+
+.greyCol {
+    padding-top: 15px;
+    margin-left: 20px;
+    max-width: 23%;
+}
+
+.attrTitle {
+    font-size: 12px;
+    padding: 0 7px;
+}
+
+.categoryFAS {
+    font-size: 25px;
+    margin: 8px -4px;
+}
+
+.fa-male {
+    margin-left: 3px;
+}
+
+.fa-dumbbell {
+    margin-left: -6px;
+}
+
+/* STEPS */
+
+.step {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.stepsIcon {
+    width: 55%;
+    margin: 10px 40px;
+}
+
+/* FEATURED GAMES */
+
+.featuredGames {
+    height: 100%;
+    padding-top: 40px;
+}
+
+.featuredLabelFG {
+    border-bottom: 5px solid #562894;
+    width: 27%;
+}
+
+.featuredHR {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: -9px;
+}
+
+.odbraniKartichkiWrapper {
+    margin-left: -4px;
+    width: 101%;
+}
+
+.odbraniKartichki {
+    margin-left: 0px;
+    height: 500px;
+    border: 1px solid rgb(182, 178, 178);
+    margin: 5px 3px;
+    max-width: 312px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.imgGameFtrDiv {
+    width: 100%;
+    height: 200px;
+    max-height: 70%;
+    margin: 15px auto;
+    display: inline-block;
+    padding-top: 30px;
+    background: #f9f9f7
+}
+
+.imgGameFtr {
+    height: 175px;
+    margin: -19px 50px;
+}
+
+.categorySqr2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #562894;
+    padding-left: 5px;
+}
+
+.catSpan {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fASIcon {
+    font-weight: 900;
+    color: #ccc5c5;
+    font-size: 21px;
+}
+
+.shortDesc {
+    font-size: 13px;
+    -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+
+.readmoreBtn {
+    border: 1px solid rgb(182, 178, 178);
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.odbraniKartichki:hover {
+    outline: 5px solid #562894;
+    transition: all 0.1s ease;
+}
+
+.odbraniKartichki:hover > .readmoreBtn {
+    background: #562894;
+    color: white;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #562894;
+    height: 500px;
+}
+
+.brainsterDesc {
+    padding-left: 280px;
+}
+
+.brainsterFooter {
+    margin-left: 35px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* .socialIcons {
+    text-align: center;
+    width: 90%;
+    margin: 0px -35px;
+}*/
+
+.socialMediaIcons {
+    width: 30%;
+    text-align: center;
+}
+
+
+
+
+/* MEDIA QUERIES / РЕСПОНЗИВНОСТ */
+
+@media only screen and (max-width: 1024px){
+
+.hide-purple-div {
+    display: none;
+}
+
+.kartichka {
+    flex: 0 0 32%;
+    max-width: 32%;
+}
+
+.labelFeat, .labelFeat:hover {
+    margin-left: 80%;
+}
+
+.odbraniKartichki {
+    max-width: 242px;
+    cursor: pointer;
+}
+
+#btn1 {
+    margin: 0 auto;
+}
+
+#btn2 {
+    margin: 0 auto;
+}
+
+#btn3 {
+    margin: 19px auto;
+}
+
+#btn4 {
+    margin: 0 auto;
+}
+
+.imgGameFtr {
+    margin: -15px 12px;
+}
+
+.brainsterDesc {
+    padding-left: 95px;
+}
+
+.footerTitle {
+    font-size: 22px;
+}
+
+.brainsterFooter {
+    margin-left: 0px;
+}
+
+.shareDiv {
+    margin-left: 121px;
+    max-width: 94px;
+    }
+
+    .fa-share-alt {
+    font-size: 30px;
+    margin-left: 13px;
+    }
+
+    .shareIcon {
+        margin: 0 0;
+        width: 65px;
+    }
+
+.gameStuff {
+    height: 300px;
+}
+}
+
+@media only screen and (max-width: 768px){
+
+    .hide-purple-div, .menuabout {
+        display: none;
+    }
+
+    #myBtn {
+        display: none!important;
+    }
+
+    .labelFeat, .labelFeat:hover {
+    margin-left: 74%;
+    }
+
+    .kartichka {
+        flex: 0 0 50%;
+        max-width: 48%;
+    }
+
+    .featuredLabelFG {
+    width: 45%;
+    }
+
+    .odbraniKartichki {
+    max-width: 360px;
+    }
+
+    .imgGameFtr {
+    margin: -15px 75px;
+    }
+
+    #btn4 {
+    margin: 19px auto;
+    }
+
+    .brainsterFooter {
+    margin-left: -45px;
+    }
+
+    .zaNas {
+    padding-top: 25px;
+    }
+
+    .produktiNaBrainster {
+        padding-top: 25px;
+    }
+
+    .productsList, .footerTitle {
+        text-align: center;
+    }
+
+    .footer {
+    height: 580px;
+    }
+
+    .socialIcons {
+        padding-top: 45px;
+    }
+
+    .shareDiv {
+    margin-left: 57px;
+    max-width: 94px;
+    }
+
+    .fa-share-alt {
+    font-size: 30px;
+    }
+
+    .shareIcon {
+        margin: 0 0;
+        width: 65px;
+    }
+
+    .greyCol {
+    max-width: 22%;
+    
+    }
+
+    .browsebycategory2 {
+    margin-top: 5%;
+}
+
+  
+
+
+
+    
+}
+
+@media only screen and (max-width: 425px){
+    .browsebycategory{
+        background: white;
+        height: 90px;
+        margin-left: -16px;
+    }
+
+    .labelFeat, .labelFeat:hover {
+    margin-left: 51%;
+    }
+
+    .kartichka {
+    padding-top: 10px;
+    flex: 0 0 50%;
+    max-width: 46%;
+    height: 190px;
+    }
+
+    .imgGame, .description, .categorySqr {
+        padding-top: 0px;
+    }
+
+    .odbraniKartichki {
+        max-width: 193px;
+        height: 100%;
+    }
+
+    #linkTo {
+        margin-top: 7px;
+    }
+
+    .brainsterFooter {
+        padding-top: 30px;
+    }
+
+    .imgGameFtr {
+    margin: -10px 7px;
+    height: 140px;
+}
+
+    .footer {
+        height: 100%;
+    }
+
+    .socialMediaIcons {
+    width: 25%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+    .shareDiv {
+        display: none;
+    }
+
+    .imgGame2 {
+    width: 100%;
+    margin: 0px 8px;
+}
+    .col-5 {
+        flex: 0 0 60%!important;
+        max-width: 55%;
+    }
+
+    .gameStuff {
+    height: 100%;
+    }
+
+    .browsebycategory2{
+        margin-top: 20px;
+        height: 100%;
+    }
+
+    .greyCol {
+    max-width: 18%;
+    padding-left: 5%;
+}
+
+.attrTitle {
+    font-size: 9px;
+}
+
+.stepsIcon {
+    width: 90px;
+    margin: 0 35%;
+}
+
+  .col-sm-12 {
+    padding-top: 30px;
+}
+
+
+}
+
+@media only screen and (max-width: 375px){
+.odbraniKartichki {
+        max-width: 168px;
+    }
+
+    .imgGameFtr {
+    margin: -8px -2px;
+    height: 130px;
+    }
+
+    .brainsterFooter {
+        padding-top: 30px;
+    }
+
+    .category {
+        font-size: 10px;
+    }
+
+    .labelFeat, .labelFeat:hover {
+    margin-left: 45%;
+}
+
+.menuwrapper {
+    width: 95px;
+}
+}
+
+@media only screen and (max-width: 320px){
+    .category {
+        font-size: 8px;
+    }
+
+    .menutitle {
+        display:none;
+    }
+
+    .menuwrapper {
+    width: 20px;
+    }
+
+    .labelFeat, .labelFeat:hover {
+    margin-left: 36%;
+    }
+
+    .odbraniKartichki {
+    max-width: 140px;
+    }
+
+    .imgGameFtr {
+    margin: -8px -2px;
+    height: 104px;
+    }
+
+    .imgGameFtrDiv {
+    height: 155px;
+    }
+}
