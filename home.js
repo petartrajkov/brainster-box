@@ -225,6 +225,8 @@ function OpenHomePage() {
     $('#homePage').show();
     $(".hide-purple-div").show();
     $('#gameDetails').hide();
+    var homeURL = location.origin;
+    window.history.pushState(null, null, homeURL);
 }
 
 
