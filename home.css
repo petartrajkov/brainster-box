@@ -782,9 +782,10 @@ p {
     }
 
     .odbraniKartichki {
-        max-width: 11.7em;
-        height: 100%;
-    }
+    max-width: 10em;
+    height: 100%;
+    margin-left: 20px;
+}
 
     #linkTo {
         margin-top: 7px;
