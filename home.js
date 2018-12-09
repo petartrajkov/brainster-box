@@ -215,7 +215,7 @@ function SetGameClick() {
 }
 
 function OpenPage() {
-    if (location.pathname.toString().indexOf('home.html') != -1)
+    if (location.pathname.toString().indexOf('index.html') != -1)
         OpenHomePage()
     else
         OpenGame();
