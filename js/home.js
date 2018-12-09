@@ -5,7 +5,10 @@ $(function () {
     LoadCards();
     SetFilters();
 
-    $(window).bind('popstate', OpenPage);
+    $(window).bind('popstate', function () {
+        window.location.href = window.location.href;
+    });
+//     $(window).bind('popstate', OpenPage);
 });
 
 function SetClickEvents() {
