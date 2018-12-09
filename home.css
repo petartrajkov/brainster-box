@@ -55,8 +55,8 @@ padding-top: 20%;
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
+    bottom: 20px;
+    right: 0px;
     z-index: 99;
     border: none;
     outline: none;
@@ -366,6 +366,10 @@ padding-top: 20%;
     padding-top: 10px;
 }
 
+.activelisteningDesc {
+    font-size: 15px;
+}
+
 
 .fa-clock, .fa-male {
     color: grey;
@@ -490,16 +494,16 @@ p {
 }
 
 .odbraniKartichkiWrapper {
-    margin-left: -4px;
-    width: 101%;
+    margin-left: 0.1%;
+    width: 100%;
 }
 
 .odbraniKartichki {
     margin-left: 0px;
-    height: 500px;
+    height: 32em;
     border: 1px solid rgb(182, 178, 178);
-    margin: 5px 3px;
-    max-width: 312px;
+    margin: 5px -11px;
+    width: 108%;
     cursor: pointer;
     padding: 5px 20px;
 }
@@ -515,8 +519,8 @@ p {
 }
 
 .imgGameFtr {
-    height: 175px;
-    margin: -19px 50px;
+    height: 70%;
+    margin-left: 28%;
 }
 
 .categorySqr2 {
@@ -539,8 +543,13 @@ p {
 }
 
 .shortDesc {
+    height: 25%;
     font-size: 13px;
     -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+#btn3 {
+    margin-top: 10%;
 }
 
 
@@ -573,7 +582,7 @@ p {
 }
 
 .brainsterDesc {
-    padding-left: 280px;
+    padding-left: 13%;
 }
 
 .brainsterFooter {
@@ -613,11 +622,6 @@ p {
     margin-left: 80%;
 }
 
-.odbraniKartichki {
-    max-width: 242px;
-    cursor: pointer;
-}
-
 #btn1 {
     margin: 0 auto;
 }
@@ -627,7 +631,7 @@ p {
 }
 
 #btn3 {
-    margin: 19px auto;
+    margin: 6px auto;
 }
 
 #btn4 {
@@ -635,11 +639,11 @@ p {
 }
 
 .imgGameFtr {
-    margin: -15px 12px;
+    margin-left: 20%;
 }
 
 .brainsterDesc {
-    padding-left: 95px;
+    padding-left: 2%;
 }
 
 .footerTitle {
@@ -693,20 +697,20 @@ p {
     width: 45%;
     }
 
-    .odbraniKartichki {
-    max-width: 360px;
-    }
-
     .imgGameFtr {
-    margin: -15px 75px;
-    }
+    margin-left: 31%;
+}
+
+    #btn3 {
+    margin: 25px auto;
+}
 
     #btn4 {
     margin: 19px auto;
     }
 
     .brainsterFooter {
-    margin-left: -45px;
+    margin-left: -1%;
     }
 
     .zaNas {
@@ -750,13 +754,7 @@ p {
 
     .browsebycategory2 {
     margin-top: 5%;
-}
-
-  
-
-
-
-    
+}  
 }
 
 @media only screen and (max-width: 425px){
@@ -774,18 +772,12 @@ p {
     padding-top: 10px;
     flex: 0 0 50%;
     max-width: 46%;
-    height: 190px;
+    height: 140px;
     }
 
     .imgGame, .description, .categorySqr {
         padding-top: 0px;
     }
-
-    .odbraniKartichki {
-    max-width: 10em;
-    height: 100%;
-    margin-left: 20px;
-}
 
     #linkTo {
         margin-top: 7px;
@@ -794,11 +786,6 @@ p {
     .brainsterFooter {
         padding-top: 30px;
     }
-
-    .imgGameFtr {
-    margin: 12px 4px;
-    height: 115px;
-}
 
     .footer {
         height: 100%;
@@ -821,6 +808,28 @@ p {
     .col-5 {
         flex: 0 0 60%!important;
         max-width: 55%;
+    }
+
+    .imgGameFtr {
+    margin-left: 7%;
+}
+    
+    .featWrap {
+        max-width: 50%;
+        height: 100%;
+    }
+
+    .odbraniKartichki {
+        margin: 5px -7px;
+        height: 560px;
+    }
+
+    .description {
+    font-size: 14px;
+}
+    
+    .shortDesc, .DotmoShortDesc {
+        height: 200px;
     }
 
     .gameStuff {
@@ -850,22 +859,31 @@ p {
     padding-top: 30px;
 }
 
+#btn3 {
+    margin: 0px auto;
+}
+
+#btn4 {
+    margin: 0px auto;
+}
+
+.categorySqr2 {
+    font-size: 10px;
+}
+
 
 }
 
 @media only screen and (max-width: 375px){
-.odbraniKartichki {
-        max-width: 160px;
-    }
-
-    .imgGameFtr {
-    margin: -8px -2px;
-    height: 130px;
-    }
-
     .brainsterFooter {
         padding-top: 30px;
     }
+
+    .imgGameFtr {
+    margin: 27px 6%;
+    width: 90%;
+    height: 50%;
+}
 
     .category {
         font-size: 10px;
@@ -878,12 +896,26 @@ p {
 .menuwrapper {
     width: 95px;
 }
+
+.activelisteningDesc {
+    font-size: 12px;
+}
+
+#btn3 {
+    margin: 2px auto;
+}
 }
 
 @media only screen and (max-width: 320px){
     .category {
         font-size: 8px;
     }
+
+    .imgGameFtr {
+    margin: 47% 3%;
+    width: 95%;
+    height: 40%;
+}
 
     .menutitle {
         display:none;
@@ -897,16 +929,12 @@ p {
     margin-left: 36%;
     }
 
-    .odbraniKartichki {
-    max-width: 140px;
+    .description {
+        font-size: 10px;
     }
 
-    .imgGameFtr {
-    margin: -8px -2px;
-    height: 104px;
+    .categorySqr2 {
+    font-size: 9px;
     }
 
-    .imgGameFtrDiv {
-    height: 155px;
-    }
 }
