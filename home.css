@@ -782,9 +782,10 @@ p {
     }
 
     .odbraniKartichki {
-        max-width: 193px;
-        height: 100%;
-    }
+    max-width: 10em;
+    height: 100%;
+    margin-left: 20px;
+}
 
     #linkTo {
         margin-top: 7px;
@@ -795,8 +796,8 @@ p {
     }
 
     .imgGameFtr {
-    margin: -10px 7px;
-    height: 140px;
+    margin: 12px 4px;
+    height: 115px;
 }
 
     .footer {
@@ -854,7 +855,7 @@ p {
 
 @media only screen and (max-width: 375px){
 .odbraniKartichki {
-        max-width: 168px;
+        max-width: 160px;
     }
 
     .imgGameFtr {

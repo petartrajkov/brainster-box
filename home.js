@@ -5,7 +5,10 @@ $(function () {
     LoadCards();
     SetFilters();
 
-    $(window).bind('popstate', OpenPage);
+    // $(window).bind('popstate', OpenPage);
+    $(window).bind('popstate', function () {
+        window.location.href = window.location.href;
+    });
 });
 
 function SetClickEvents() {
@@ -44,7 +47,7 @@ function SetClickEvents() {
 
 function LoadCards() {
     $.ajax({
-        url: '/json/data.json',
+        url: 'data.json',
         dataType: 'json',
         type: 'get',
         cache: false,
@@ -215,7 +218,7 @@ function SetGameClick() {
 }
 
 function OpenPage() {
-    if (location.pathname.toString().indexOf('home.html') != -1)
+    if (location.pathname != gameData.urlName)
         OpenHomePage()
     else
         OpenGame();
@@ -225,6 +228,8 @@ function OpenHomePage() {
     $('#homePage').show();
     $(".hide-purple-div").show();
     $('#gameDetails').hide();
+    // var homeURL = location.origin;
+    // window.history.pushState(null, null, homeURL);
 }
 
 

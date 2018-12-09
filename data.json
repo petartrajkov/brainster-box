@@ -2,7 +2,7 @@
     {
         "id": "0",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/01.png",
+        "gameIcon": "media/1. Eнергија/Икони/01.png",
         "gameTitle": "Hello Kitty",
         "urlName": "hello-kitty",
         "timeFrame": "5-30",
@@ -25,7 +25,7 @@
     {
         "id": "1",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/2.png",
+        "gameIcon": "media/1. Eнергија/Икони/2.png",
         "gameTitle": "Dance, Dance, Dance",
         "urlName": "dance-dance-dance",
         "timeFrame": "5-30",
@@ -48,7 +48,7 @@
     {
         "id": "2",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/3.png",
+        "gameIcon": "media/1. Eнергија/Икони/3.png",
         "gameTitle": "Bang",
         "urlName": "bang",
         "timeFrame": "5-30",
@@ -69,7 +69,7 @@
     {
         "id": "3",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/4.png",
+        "gameIcon": "media/1. Eнергија/Икони/4.png",
         "gameTitle": "I love you honey",
         "urlName": "i-love-you-honey",
         "timeFrame": "5-30",
@@ -91,7 +91,7 @@
     {
         "id": "4",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/5.png",
+        "gameIcon": "media/1. Eнергија/Икони/5.png",
         "gameTitle": "Human Machine",
         "urlName": "human-machine",
         "timeFrame": "5-30",
@@ -112,7 +112,7 @@
     {
         "id": "5",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/6.png",
+        "gameIcon": "media/1. Eнергија/Икони/6.png",
         "gameTitle": "Love your neighbor",
         "urlName": "love-your-neighbor",
         "timeFrame": "5-30",
@@ -134,7 +134,7 @@
     {
         "id": "6",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/7.png",
+        "gameIcon": "media/1. Eнергија/Икони/7.png",
         "gameTitle": "Тhe shouting game",
         "urlName": "the-shouting-game",
         "timeFrame": "5-30",
@@ -155,7 +155,7 @@
     {
         "id": "7",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/8.png",
+        "gameIcon": "media/1. Eнергија/Икони/8.png",
         "gameTitle": "What are you doing",
         "urlName": "what-are-you-doing",
         "timeFrame": "5-30",
@@ -176,7 +176,7 @@
     {
         "id": "8",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/9.png",
+        "gameIcon": "media/1. Eнергија/Икони/9.png",
         "gameTitle": "Mazunga",
         "urlName": "mazunga",
         "timeFrame": "5-30",
@@ -197,7 +197,7 @@
     {
         "id": "9",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/10.png",
+        "gameIcon": "media/1. Eнергија/Икони/10.png",
         "gameTitle": "Sync Claps",
         "urlName": "sync-claps",
         "timeFrame": "5-30",
@@ -220,7 +220,7 @@
     {
         "id": "10",
         "category": "energy",
-        "gameIcon": "/media/1. Eнергија/Икони/11.png",
+        "gameIcon": "media/1. Eнергија/Икони/11.png",
         "gameTitle": "Shake Down",
         "urlName": "shake-down",
         "timeFrame": "5-30",
@@ -241,7 +241,7 @@
     {
         "id": "11",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/1.png",
+        "gameIcon": "media/2. Иновации/Икони/1.png",
         "gameTitle": "The 5 Whys",
         "urlName": "the-5-ways",
         "timeFrame": "30-60",
@@ -274,7 +274,7 @@
     {
         "id": "12",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/2.png",
+        "gameIcon": "media/2. Иновации/Икони/2.png",
         "gameTitle": "Diffusion Curve Reflection",
         "urlName": "diffusion-curve-reflection",
         "timeFrame": "5-30",
@@ -299,7 +299,7 @@
     {
         "id": "13",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/3.png",
+        "gameIcon": "media/2. Иновации/Икони/3.png",
         "gameTitle": "Future Trends",
         "urlName": "future-trends",
         "timeFrame": "60-120",
@@ -324,7 +324,7 @@
     {
         "id": "14",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/4.png",
+        "gameIcon": "media/2. Иновации/Икони/4.png",
         "gameTitle": "Story Building",
         "urlName": "story-building",
         "timeFrame": "30-60",
@@ -347,7 +347,7 @@
     {
         "id": "15",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/5.png",
+        "gameIcon": "media/2. Иновации/Икони/5.png",
         "gameTitle": "Тake a Stand",
         "urlName": "take-a-stand",
         "timeFrame": "60-120",
@@ -377,7 +377,7 @@
     {
         "id": "16",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/6.png",
+        "gameIcon": "media/2. Иновации/Икони/6.png",
         "gameTitle": "Rapid Research",
         "urlName": "rapid-research",
         "timeFrame": "5-30",
@@ -405,7 +405,7 @@
     {
         "id": "17",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/7.png",
+        "gameIcon": "media/2. Иновации/Икони/7.png",
         "gameTitle": "User Day-parting",
         "timeFrame": "60-120",
         "urlName": "user-day-parting",
@@ -440,7 +440,7 @@
     {
         "id": "18",
         "category": "innovation",
-        "gameIcon": "/media/2. Иновации/Икони/8.png",
+        "gameIcon": "media/2. Иновации/Икони/8.png",
         "gameTitle": "Exploring Client Centricity",
         "urlName": "exploring-client-centricity",
         "timeFrame": "60-120",
@@ -474,7 +474,7 @@
     {
         "id": "19",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/01.png",
+        "gameIcon": "media/3. Лидерство/01.png",
         "gameTitle": "Аctive Listening",
         "urlName": "active-listening",
         "timeFrame": "60-120",
@@ -504,7 +504,7 @@
     {
         "id": "20",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/02.png",
+        "gameIcon": "media/3. Лидерство/02.png",
         "gameTitle": "Stinky Fish",
         "urlName": "stinky-fish",
         "timeFrame": "60-120",
@@ -532,7 +532,7 @@
     {
         "id": "21",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/03.png",
+        "gameIcon": "media/3. Лидерство/03.png",
         "gameTitle": "Feedback: I appreciate",
         "urlName": "feedback-i-appreciate",
         "timeFrame": "60-120",
@@ -558,7 +558,7 @@
     {
         "id": "22",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/04.png",
+        "gameIcon": "media/3. Лидерство/04.png",
         "gameTitle": "Explore your values",
         "urlName": "explore-your-values",
         "timeFrame": "60-120",
@@ -592,7 +592,7 @@
     {
         "id": "23",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/05.png",
+        "gameIcon": "media/3. Лидерство/05.png",
         "gameTitle": "Personal SWOB Assesment",
         "urlName": "personal-swob-assesment",
         "timeFrame": "60-120",
@@ -620,7 +620,7 @@
     {
         "id": "24",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/06.png",
+        "gameIcon": "media/3. Лидерство/06.png",
         "gameTitle": "Reflection Individual",
         "urlName": "reflection-individual",
         "timeFrame": "30-60",
@@ -648,7 +648,7 @@
     {
         "id": "25",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/07.png",
+        "gameIcon": "media/3. Лидерство/07.png",
         "gameTitle": "Back-turned Feedback",
         "urlName": "back-turned-feedback",
         "timeFrame": "60-120",
@@ -674,7 +674,7 @@
     {
         "id": "26",
         "category": "leadership",
-        "gameIcon": "/media/3. Лидерство/8.png",
+        "gameIcon": "media/3. Лидерство/8.png",
         "gameTitle": "Feedback Map",
         "urlName": "feedback-map",
         "timeFrame": "30-120",
@@ -706,7 +706,7 @@
     {
         "id": "27",
         "category": "action",
-        "gameIcon": "/media/4. Акции/1.png",
+        "gameIcon": "media/4. Акции/1.png",
         "gameTitle": "Dotmocracy",
         "urlName": "dotmocracy",
         "timeFrame": "5-30",
@@ -729,7 +729,7 @@
     {
         "id": "28",
         "category": "action",
-        "gameIcon": "/media/4. Акции/2.png",
+        "gameIcon": "media/4. Акции/2.png",
         "gameTitle": "Parking Lot",
         "urlName": "parking-lot",
         "timeFrame": "5-30",
@@ -753,7 +753,7 @@
     {
         "id": "29",
         "category": "action",
-        "gameIcon": "/media/4. Акции/3.png",
+        "gameIcon": "media/4. Акции/3.png",
         "gameTitle": "IDOARRT Meeting Design",
         "urlName": "idoarrt-meeting-design",
         "timeFrame": "5-30",
@@ -776,7 +776,7 @@
     {
         "id": "30",
         "category": "action",
-        "gameIcon": "/media/4. Акции/4.png",
+        "gameIcon": "media/4. Акции/4.png",
         "gameTitle": "Project Mid-way Evaluation",
         "urlName": "project-mid-way-evaluation",
         "timeFrame": "30-60",
@@ -809,7 +809,7 @@
     {
         "id": "31",
         "category": "action",
-        "gameIcon": "/media/4. Акции/5.png",
+        "gameIcon": "media/4. Акции/5.png",
         "gameTitle": "3 Action Steps",
         "urlName": "3-action-steps",
         "timeFrame": "120-240",
@@ -840,7 +840,7 @@
     {
         "id": "32",
         "category": "action",
-        "gameIcon": "/media/4. Акции/6.png",
+        "gameIcon": "media/4. Акции/6.png",
         "gameTitle": "Project Point of Departure",
         "urlName": "project-point-of-departure",
         "timeFrame": "30-120",
@@ -872,7 +872,7 @@
     {
         "id": "33",
         "category": "action",
-        "gameIcon": "/media/4. Акции/7.png",
+        "gameIcon": "media/4. Акции/7.png",
         "gameTitle": "Letter to Myself",
         "urlName": "letter-to-myself",
         "timeFrame": "5-30",
@@ -896,7 +896,7 @@
     {
         "id": "34",
         "category": "action",
-        "gameIcon": "/media/4. Акции/8.png",
+        "gameIcon": "media/4. Акции/8.png",
         "gameTitle": "Project Wrap-up",
         "urlName": "project-wrap-up",
         "timeFrame": "60-240",
@@ -930,7 +930,7 @@
     {
         "id": "35",
         "category": "team",
-        "gameIcon": "/media/5. Тим/1.png",
+        "gameIcon": "media/5. Тим/1.png",
         "gameTitle": "Conflict Responses",
         "urlName": "conflict-responses",
         "timeFrame": "60-120",
@@ -959,7 +959,7 @@
     {
         "id": "36",
         "category": "team",
-        "gameIcon": "/media/5. Тим/2.png",
+        "gameIcon": "media/5. Тим/2.png",
         "gameTitle": "Myers-Briggs Team Reflection",
         "urlName": "myers-briggs-team-reflection",
         "timeFrame": "60-120",
@@ -988,7 +988,7 @@
     {
         "id": "37",
         "category": "team",
-        "gameIcon": "/media/5. Тим/3.png",
+        "gameIcon": "media/5. Тим/3.png",
         "gameTitle": "Rollercoaster Check-In",
         "urlName": "rollercoaster-check-in",
         "timeFrame": "5-60",
@@ -1016,7 +1016,7 @@
     {
         "id": "38",
         "category": "team",
-        "gameIcon": "/media/5. Тим/4.png",
+        "gameIcon": "media/5. Тим/4.png",
         "gameTitle": "Personal Presentations",
         "urlName": "personal-presentations",
         "timeFrame": "60-240",
@@ -1039,7 +1039,7 @@
     {
         "id": "39",
         "category": "team",
-        "gameIcon": "/media/5. Тим/5.png",
+        "gameIcon": "media/5. Тим/5.png",
         "gameTitle": "Аppreciation Train",
         "urlName": "appreciation-train",
         "timeFrame": "60-120",
@@ -1067,7 +1067,7 @@
     {
         "id": "40",
         "category": "team",
-        "gameIcon": "/media/5. Тим/6.png",
+        "gameIcon": "media/5. Тим/6.png",
         "gameTitle": "Three Question Mingle",
         "urlName": "three-question-mingle",
         "timeFrame": "30-60",
@@ -1092,7 +1092,7 @@
     {
         "id": "41",
         "category": "team",
-        "gameIcon": "/media/5. Тим/7.png",
+        "gameIcon": "media/5. Тим/7.png",
         "gameTitle": "Portrait Gallery ",
         "urlName": "portrait-gallery",
         "timeFrame": "30-60",
@@ -1120,7 +1120,7 @@
     {
         "id": "42",
         "category": "team",
-        "gameIcon": "/media/5. Тим/8.png",
+        "gameIcon": "media/5. Тим/8.png",
         "gameTitle": "Circles of influence ",
         "urlName": "circles-of-influence",
         "timeFrame": "30-120",
