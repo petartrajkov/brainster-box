@@ -44,7 +44,7 @@ function SetClickEvents() {
 
 function LoadCards() {
     $.ajax({
-        url: 'data.json',
+        url: '/data.json',
         dataType: 'json',
         type: 'get',
         cache: false,
