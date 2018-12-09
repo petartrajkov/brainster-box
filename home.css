@@ -772,7 +772,7 @@ p {
     padding-top: 10px;
     flex: 0 0 50%;
     max-width: 46%;
-    height: 140px;
+    height: 11rem;
     }
 
     .imgGame, .description, .categorySqr {
@@ -904,6 +904,13 @@ p {
 #btn3 {
     margin: 2px auto;
 }
+
+.kartichka {
+    padding-top: 10px;
+    flex: 0 0 50%;
+    max-width: 46%;
+    height: 10rem;
+    }
 }
 
 @media only screen and (max-width: 320px){
@@ -935,6 +942,13 @@ p {
 
     .categorySqr2 {
     font-size: 9px;
+    }
+
+    .kartichka {
+    padding-top: 10px;
+    flex: 0 0 50%;
+    max-width: 46%;
+    height: 9rem;
     }
 
 }
